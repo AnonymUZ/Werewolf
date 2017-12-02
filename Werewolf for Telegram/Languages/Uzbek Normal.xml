@@ -2,17 +2,17 @@
 <strings>
   <language name="Uzbek Normal" base="O'zbek" variant="Oddiy" />
   <string key="NotInGame">
-    <value>Sen hozirda hech bir o'yinda mavjud emassan...</value>
+    <value>Sen hozir hech bir o'yinda mavjud emassan...</value>
   </string>
   <string key="PlayerStartedGame">
-    <value>{0} o'yinni boshladi!  /join ni bos xursandchilikka qo'shilish uchun.... yoki o'lish uchun :P</value>
-    <value>Yangi o'yin {0} tomonidan boshlandi!   /join ni bos, seni yeyishlari uchun!</value>
-    <value>{0} bo'rilarni chaqirdi!/join ni bos,dunyoni saqlab qolish uchun!</value>
+    <value>{0} o'yinni boshladi! Xursandchilikka qo'shilish uchun yoki o'lish uchun /join ni bos! :P</value>
+    <value>Yangi o'yin {0} tomonidan boshlandi! Seni yeyishlari uchun /join ni bos!</value>
+    <value>{0} bo'rilarni chaqirdi! Dunyoni saqlab qolish uchun /join ni bos!</value>
   </string>
   <string key="PlayerStartedChaosGame">
-    <value>{0} xaos rejimida o'yinni boshladi!   /join ni bos xursandchilikka qo'shilish uchun.... yoki o'lish uchun :P</value>
-    <value>Xaos rejimidagi yangi o'yin {0} tomonidan boshlandi!  /join ni bos, seni yeyishlari uchun!</value>
-    <value>{0} xaos yordamida bo'rilarni chaqirdi! /join ni bos, dunyoni saqlab qolish uchun!</value>
+    <value>{0} xaos rejimida o'yinni boshladi! Xursandchilikka qo'shilish uchun yoki o'lish uchun /join ni bos! :P</value>
+    <value>Xaos rejimidagi yangi o'yin {0} tomonidan boshlandi! Seni yeyishlari uchun /join ni bos!</value>
+    <value>{0} xaos yordamida bo'rilarni chaqirdi! Dunyoni saqlab qolish uchun /join ni bos!</value>
   </string>
   <string key="NoJoinGameRunning">
     <value>Sen qo'shila olmaysan!  O'yin allaqachon boshlangan.</value>
@@ -25,10 +25,10 @@
   <string key="MinuteLeftToJoin">
     <value>Qo'shilish uchun 1 daqiqa qoldi! (/join)</value>
     <value> /join ni bos, qo'shilish uchun, axir atiga 1 daqiqa qoldi. </value>
-    <value>Tezroq! Atiga 1 daqiqa qoldi! /join ni bos,dunyoni saqlab qol!</value>
+    <value>Tezroq! Atiga 1 daqiqa qoldi! /join ni bos va dunyoni saqlab qol!</value>
   </string>
   <string key="SecondsLeftToJoin">
-    <value>{0} sekund qoldi! /join ni tezroq bos, xursandchilik qilish uchun!</value>
+    <value>{0} sekund qoldi! Xursandchilik qilish uchun /join ni tezroq bos!</value>
     <value>Qabul tugashiga {0} sekund qoldi! (/join) </value>
     <value>Birozgina qoldi! {0} sekund boshlanguncha. (/join)</value>
     <value>{0} sekund qoldi qabul tugashiga! /join ni bos! </value>
@@ -68,7 +68,8 @@
   <string key="Flee">
     <value>{0} qo'rqganidan qochib ketdi!</value>
     <value>To'fon kelib {0} ni uchirib ketdi!</value>
-    <value>{0} chang chiqarmay qochib qoldi .</value>
+    <value>{0} chang chiqarmay qochib qoldi.</value>
+    <value>{0} quyonni rasmini chizib ketti.</value>
     <value>Yangi qo'rqoq topildi! Bu {0}.</value>
     <value>{0}da kechiktirib bo'lmaydigan ish chiqib qoldi.</value>
   </string>
@@ -80,7 +81,7 @@
   </string>
   <string key="DidntAsk">
     <value>Men sendan hech narsa so'raganim yo'q!</value>
-    <value>Muxim o'yin ketayabdi, chalg'ima, hech narsa so'raganim yoq.</value>
+    <value>Muxim o'yin ketyapti, chalg'ima, hech narsa so'raganim yoq.</value>
     <value>Kallanga kelgan har narsani yozaverma, men sendan hech narsani bilishni hohlamayman!</value>
   </string>
   <string key="NotPlaying">
@@ -109,7 +110,7 @@
     <value>{0} {1} haqida bir nimalar deb yotibdi!</value>
   </string>
   <string key="IdleKill">
-    <value>{0} 2tun davomida ovoz bermadi.  Yaxshilik kuchlari buni qanday o'g'ir jinoyat ekanini ko'rishdi va{0} kutilmaganda yiqildi... {1}</value>
+    <value>{0} 2tun davomida ovoz bermadi.  Yaxshilik kuchlari buni qanday o'g'ir jinoyat ekanini ko'rishdi va {0} kutilmaganda yiqildi... {1}</value>
     <value>Ruxlar {0} ni 2tun davomida ovoz bermaganini sezishda va uni jazosini berishdi! \nHamma vahimada {1} ekanini bilishdi </value>
     <value>Ovozga qo'yishdan so'ng hamma {0} ni qo'lida "Meni oliy kuchlar bo'ysundirdi" degan yozuv bilan ko'rishdi!  \nHamma hayratda uni {1} ekanini bilishdi. </value>
   </string>
@@ -123,7 +124,7 @@
     <value>Tanlov qabul qilindi</value>
   </string>
   <string key="BeholderSeer">
-    <value>\n{0} u bashoratchi!</value>
+    <value>\n{0} bashoratchi!</value>
     <value>\n{0} xalqingni saqlab qolishga yordam beradi, uni himoya qil!</value>
     <value>\n{0} Vanga kuchiga ega!</value>
     <value>\n{0} Vangalik qilyabdi!  Uni himoyasini ta'minla!</value>
@@ -131,18 +132,19 @@
   <string key="ApprenticeNowSeer">
     <value>{0} bashoratchi edi.  U o'lganligi sabab,sen uni o'rnini egallading.</value>
     <value>Bashoratchi {0} o'ldi!  Endi sen yangi Vangasan!</value>
-    <value>Sen {0}ni o'rnini egallading!  Butun xaqiqatni bilish vaqti keldi!</value>
+    <value>Sen {0}ni o'rnini egallading!  Butun haqiqatni bilish vaqti keldi!</value>
   </string>
   <string key="BeholderNewSeer">
     <value>{0} shogird/egizak edi ,endi u {1} ni o'rnini egallab Vangalik qilish uchun qadam qo'ydi/o'zgardi.</value>
     <value>Bashoratchi{1} o'ldi. Uni o'rnini{0} egalladi.</value>
   </string>
   <string key="SeerSees">
-    <value>Sen ko'rayabsan,{0} ni {1} ekanini!</value>
-    <value>Senga ko'rinayabdi {0}, u {1} ekan!</value>
+    <value>Sen ko'rayabsan,{0} ning {1}ekanini!</value>
+    <value>Senga {0} ko'rinayabdi, u {1} ekan!</value>
   </string>
   <string key="AskLynch">
     <value>Sen kimni osmoqchisan?</value>
+    <value>Kimni dorga osamiz?</value>
   </string>
   <string key="AskDetect">
     <value>Sen kimni tekshirmoqchisan?</value>
@@ -154,13 +156,14 @@
     <value>Sen kimnikiga bormoqchisan?</value>
   </string>
   <string key="AskSee">
-    <value>Sen kimni ko'rishni hohlaysan?</value>
+    <value>Sen kimni ko'rishni xohlaysan?</value>
   </string>
   <string key="AskGuard">
     <value>Sen kimni himoya qilmoqchisan?</value>
   </string>
   <string key="AskEat">
     <value>Sen kimni yemoqchisan?</value>
+    <value>Sen kimni yeyishni istaysan?</value>
   </string>
   <string key="AskHunt">
     <value>Sen kimni ovlamoqchisan?</value>
@@ -186,19 +189,19 @@
   </string>
   <string key="RoleInfoDetective">
     <value>Sen Detektivsan.  Sen biror o'yinchini kunduz kuni tanlashing mumkin uni rolini aniqlash uchun.  Lekin, Lekin sen borini tanlasang bori seni kimligingni 40%ga bilib qolishi mumkin!</value>
-    <value>Sen Sherlok Holmssan! Sen kunduz kuni har qanday o'yinchini rolini aniqlashing mumkin. Lekin extiyot bo'l, bo'rilar seni kimligingni bilib qolishlari mumkin!</value>
+    <value>Sen Sherlok Holmssan! Sen kunduz kuni har qanday o'yinchini rolini aniqlashing mumkin. Lekin ehtiyot bo'l, bo'rilar seni kimligingni bilib qolishlari mumkin!</value>
     <value>Sen Detektiv bo'lding! O'zingni atrofingdagi hammani rolini aniqla.Faqat bo'rilardan extiyot, kim ekanligingni bilib qolishlari mumkin!</value>
   </string>
   <string key="RoleInfoDrunk">
-    <value>Tabriklaymiz!  Sen o'taketgan aroqxorsan!</value>
-    <value>Ichish joningga tegmadimi?!  Bor ozingga kel,  bo'rilar hujum qilishayabdi!</value>
-    <value>Bor, o'zingga oxshagan aroqxorlarni top,senga baribir qiladigan ish qolmadi...</value>
-    <value>Yangi alkagoliksan.  Burilishda bar bor, senga o'sha yoqga...</value>
-    <value>Menimcha sen yangi bar topishing kerak, chunki bu bardagi hamma aroqni ichib qoyding,alkagolik.</value>
+    <value>Tabriklaymiz! Sen o'taketgan aroqxorsan!</value>
+    <value>Ichish joningga tegmadimi?! Bor o'zingga kel,  bo'rilar hujum qilishayapti!</value>
+    <value>Bor, o'zingga o'xshagan aroqxorlarni top, senga baribir qiladigan ish qolmadi...</value>
+    <value>Yangi alkagoliksan.  Burilishda bar bor, sen joying o'sha yoqda...</value>
+    <value>Menimcha sen yangi bar topishing kerak, chunki bu bardagi hamma aroqni ichib qoyding, alkagolik.</value>
   </string>
   <string key="RoleInfoGuardianAngel">
     <value>Sen Himoyalovchi Farishtasan. Har tunda, sen har tunda bir odamni hayotini saqlab qolishing mumkin, lekin bo'rini tanlasang 50% o'lishing mumkin.</value>
-    <value>Farishta! Bor o'z halqingni himoya qil! Lekin bo'rilardan extiyot bo'l, ularni tanlasang 50%ga sen yeb qoyishi mumkin.</value>
+    <value>Farishta! Bor o'z halqingni himoya qil! Lekin bo'rilardan ehtiyot bo'l, ularni tanlasang 50%ga sen yeb qoyishi mumkin.</value>
     <value>Yangi Himoyalovchi Farishta! Eng keraklilarni saqla, xatto yengiltaklarni ham! Lekin bo'rilardan qoch,ular seni yeb qoyishlari mumkin...</value>
   </string>
   <string key="RoleInfoGunner">
@@ -459,7 +462,7 @@
     <value>Sotqin 🖕</value>
   </string>
   <string key="GuardianAngel">
-    <value>Ximoyalovchi farishta 👼</value>
+    <value>Himoyalovchi farishta 👼</value>
   </string>
   <string key="Detective">
     <value>Detektiv 🕵</value>
@@ -940,7 +943,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
     <value>Kechir, lekin sen o'yinning global adminstratori emassan.</value>
   </string>
   <string key="NotPara">
-    <value>Kechir lekin sen meni adminstratorim emassan (U: @Para949 hisoblanadi).</value>
+    <value>Kechir lekin sen meni adminstratorim emassan.</value>
   </string>
   <string key="Yes">
     <value>Ha</value>
